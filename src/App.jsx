@@ -1,16 +1,23 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
+import { useState } from "react";
+import "./App.css";
+import { addToCart } from "./redux/cartAction";
+import { useDispatch } from "react-redux";
+import Header from "./component/Header";
+import Main from "./component/Main";
 function App() {
-  const [count, setCount] = useState(0)
-
+  const dispatch = useDispatch();
+  const product = {
+    name: "I phone",
+    type: "mobile",
+    price: 100000,
+    color: "red",
+  };
   return (
-   <div className='bg-green-500'>
-        hello
-   </div>
-  )
+    <div className="bg-green-100 min-h-screen">
+      <Header />
+      <Main/>
+    </div>
+  );
 }
 
-export default App
+export default App;
