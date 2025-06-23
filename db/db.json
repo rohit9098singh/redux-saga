@@ -1,0 +1,49 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "name": "iPhone 15",
+      "color": "Black",
+      "price": 99999,
+      "category": "Mobile",
+      "brand": "Apple",
+      "photo": "https://m.media-amazon.com/images/I/71657TiFeHL._SL1500_.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Samsung Galaxy S23",
+      "color": "Green",
+      "price": 84999,
+      "category": "Mobile",
+      "brand": "Samsung",
+      "photo": "https://m.media-amazon.com/images/I/61RZDb2mQxL._SL1500_.jpg"
+    },
+    {
+      "id": 3,
+      "name": "OnePlus 11",
+      "color": "Titan Black",
+      "price": 56999,
+      "category": "Mobile",
+      "brand": "OnePlus",
+      "photo": "https://m.media-amazon.com/images/I/61amb0CfMGL._SL1500_.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Sony WH-1000XM5",
+      "color": "Silver",
+      "price": 29990,
+      "category": "Headphones",
+      "brand": "Sony",
+      "photo": "https://m.media-amazon.com/images/I/51U3t7H3KGL._SL1500_.jpg"
+    },
+    {
+      "id": 5,
+      "name": "MacBook Air M2",
+      "color": "Midnight",
+      "price": 114900,
+      "category": "Laptop",
+      "brand": "Apple",
+      "photo": "https://m.media-amazon.com/images/I/71jG+e7roXL._SL1500_.jpg"
+    }
+  ]
+}

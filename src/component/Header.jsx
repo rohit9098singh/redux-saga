@@ -8,7 +8,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto h-full flex items-center justify-between px-4">
         
        
-        <div className="flex items-center gap-2 text-purple-600 font-bold text-xl">
+        <div className="flex items-center gap-2 text-black font-bold text-xl">
           <PanelLeft className="w-6 h-6" />
           <span>Redux Saga</span>
         </div>

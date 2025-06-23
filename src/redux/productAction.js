@@ -1,11 +1,14 @@
-import { PRODUCT_LIST } from "./constant"
+import { PRODUCT_LIST, SET_PRODUCT_LIST } from "./constant"
 
-export const ProductList=async ()=>{
-    let data=await fetch("https://jsonplaceholder.typicode.com/todos/1");
-    data=await data?.json();
-    console.log("action is called ",data)
+export const ProductList= ()=>{ 
     return {
-        type:PRODUCT_LIST,
-        data
+        type:PRODUCT_LIST, 
     }
+}
+
+export const setProductList=(data)=>{
+     return {
+        type:SET_PRODUCT_LIST,
+        data:data
+     }
 }
